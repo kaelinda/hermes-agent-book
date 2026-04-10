@@ -30,6 +30,7 @@ tags: [hermes, startbook, documentation, self-evolving]
 | **[Plan + Subagent + Cron 高级自动化指南](./Hermes-Agent-Plan-Subagent-Cron-高级自动化指南.md)** | 结构化计划、多代理、定时自我进化 | ★★★★★ | v1.0 已规范 |
 | **[docs-style-guide.md](./docs-style-guide.md)** | 全项目写作规范（宪法） | 随时参考 | v1.1 已规范 |
 | **[CHANGELOG.md](./CHANGELOG.md)** | 项目版本历史与重要迭代记录 | 按需查阅 | v1.0 新增 |
+| **[Advanced Skills 高级设计方法论](./Hermes-Agent-Advanced-Skills-高级设计方法论.md)** | Skill 体系架构、组合设计、生命周期、质量治理 | 进阶阅读 | v1.0 新增 |
 
 **建议阅读顺序**：Start Book → 快速入门 → Skills → Memory → Plan+Subagent+Cron
 

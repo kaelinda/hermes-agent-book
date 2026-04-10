@@ -38,6 +38,17 @@ tags: [changelog, version-history, documentation]
 
 ---
 
+## v1.1 新专题增强（2026-04-10）
+
+### 重大变化
+
+- 新增 `Hermes-Agent-Advanced-Skills-高级设计方法论.md` v1.1
+- 从单 Skill 写法扩展到 Skill 体系设计、拆分/组合/废弃决策、团队治理
+- 增加高级 Skill 10 大原则、架构模式、评分模型、生产级模板、反模式与治理策略
+- README 与主书已纳入该专题册入口
+
+---
+
 ## 后续计划
 
 - 增加每周自动维护 Cron 任务
