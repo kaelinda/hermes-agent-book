@@ -9,7 +9,7 @@ tags: [changelog, version-history, documentation]
 
 # Hermes Agent 中文 Start Book 版本历史
 
-![Hermes Agent](https://hermes-agent.nousresearch.com/img/hermes-logo.png)
+![Hermes Agent](https://hermes-agent.nousresearch.com/docs/img/logo.png)
 
 **版本**：v1.0  
 **更新日期**：2026-04-10  
@@ -46,6 +46,18 @@ tags: [changelog, version-history, documentation]
 - 从单 Skill 写法扩展到 Skill 体系设计、拆分/组合/废弃决策、团队治理
 - 增加高级 Skill 10 大原则、架构模式、评分模型、生产级模板、反模式与治理策略
 - README 与主书已纳入该专题册入口
+
+---
+
+## v2.2 官方文档增强（2026-04-10）
+
+### 重大变化
+
+- `Hermes-Agent-快速入门完全实战指南.md` 升级为 v2.2 官方增强版
+- 融合官方 Quickstart / Profiles / Features Overview 的关键信息
+- 新增 Provider 选择能力表、官方能力地图、Profiles 多 Agent 快速上手、Voice / MCP / ACP / Gateway / Skills 搜索等探索路径
+- 新增 `Hermes-Agent-Profiles-多代理隔离与工作流指南.md` v1.0
+- 更新主书与 README，将 Profiles 专题和新版 Quickstart 纳入文档地图
 
 ---
 

@@ -9,7 +9,7 @@ tags: [hermes, startbook, guide, self-evolving, production-ready]
 
 # Hermes Agent 中文 Start Book（v2.0 终极整合版）
 
-![Hermes Agent](https://hermes-agent.nousresearch.com/img/hermes-logo.png)
+![Hermes Agent](https://hermes-agent.nousresearch.com/docs/img/logo.png)
 
 **版本**：v2.0（重构规范版 · 完全遵循 Style Guide）  
 **更新日期**：2026-04-10  
@@ -55,7 +55,8 @@ hermes chat -q "请阅读 ~/.hermes/docs/Hermes-Agent-中文-Start-Book.md，从
 
 | 文档 | 核心内容 | 推荐阅读顺序 | 状态 |
 |------|----------|--------------|------|
-| **[快速入门完全实战指南](./Hermes-Agent-快速入门完全实战指南.md)** | 安装、配置、命令详解、避坑 | ★★★★★（第 1 步） | 待按规范升级 |
+| **[快速入门完全实战指南](./Hermes-Agent-快速入门完全实战指南.md)** | 安装、配置、Provider 选择、Profiles、多能力地图 | ★★★★★（第 1 步） | v2.2 官方增强版 |
+| **[Profiles 多代理隔离与工作流指南](./Hermes-Agent-Profiles-多代理隔离与工作流指南.md)** | 多 Profile、独立人格、独立 Gateway、clone 策略 | ★★★★★（重度用户） | **全新专题册** |
 | **[Skills 系统完全指南](./Hermes-Agent-Skills-系统完全指南.md)** | 如何设计高质量 Skill + 模板 | ★★★★★ | 良好 |
 | **[Memory & Context 系统完全指南](./Hermes-Agent-Memory-Context-系统完全指南.md)** | 记忆管理、SOUL.md、Context Files | ★★★★☆ | 良好 |
 | **[Plan + Subagent + Cron 高级自动化指南](./Hermes-Agent-Plan-Subagent-Cron-高级自动化指南.md)** | 结构化计划、多代理、定时自我进化 | ★★★★★ | **全新规范版** |
@@ -72,7 +73,14 @@ hermes chat -q "请阅读 ~/.hermes/docs/Hermes-Agent-中文-Start-Book.md，从
 
 **核心命令**：
 - `hermes model` / `hermes setup` / `hermes tools`
+- `hermes profile create coder` —— 快速建立独立 Agent
 - `/plan [需求]` —— **强烈推荐所有复杂任务先规划**
+
+**这本书现在额外覆盖**：
+- 官方 Provider 选择视角
+- Profiles 多 Agent 隔离
+- Features Overview 官方能力地图
+- Voice / MCP / ACP / Gateway / Skills 搜索等官方推荐探索路径
 
 **安装后立即执行**：配置 `~/.hermes/SOUL.md` 定义您的中文沟通风格与偏好。
 
