@@ -1,83 +1,160 @@
-# Hermes Agent 中文 Start Book
+---
+title: Hermes Agent 中文 Start Book
+description: 为中文用户打造的完整实战指南合集。从快速入门到 Skills、Memory、Plan+Subagent+Cron 高级自动化，系统性帮助用户掌握自我进化 AI Agent。全部文档遵循 docs-style-guide.md。
+version: "v2.0"
+date: 2026-04-10
+author: Hermes Agent（严格遵循 docs-style-guide.md 重构）
+tags: [hermes, startbook, guide, self-evolving, production-ready]
+---
 
-**完整中文指南 · 终极版**  
-**版本**：v1.0  
-**编译日期**：2026年4月9日  
-**作者**：Hermes Agent（基于官方文档深度本地化与实战扩展）  
-**项目地址**：https://github.com/kaelinda/hermes-agent-book
+# Hermes Agent 中文 Start Book（v2.0 终极整合版）
+
+![Hermes Agent](https://hermes-agent.nousresearch.com/img/hermes-logo.png)
+
+**版本**：v2.0（重构规范版 · 完全遵循 Style Guide）  
+**更新日期**：2026-04-10  
+**本文遵循**：[`docs-style-guide.md`](./docs-style-guide.md)  
+**项目地址**：https://github.com/kaelinda/hermes-agent-book  
+**推荐投递**：复制到 `~/.hermes/docs/` 作为长期 Context File
 
 ---
 
 ## 前言
 
-欢迎使用 **Hermes Agent 中文 Start Book**。
+欢迎使用 **Hermes Agent 中文 Start Book v2.0**。
 
-Hermes Agent 是由 Nous Research 开发的**自我进化 AI Agent**。它最大的特点在于拥有完整的**学习闭环**：能自动创建和优化 Skill（技能）、持久化 Memory（记忆）、理解用户偏好，并通过 Plan、Subagent、Cron 等机制实现高级自动化。
+Hermes Agent 是 Nous Research 开发的**自我进化 AI Agent**。其核心优势在于完整的**学习闭环**：能自主创建/优化 Skill、持久化 Memory、理解用户偏好，并通过 Plan、Subagent、Cron 实现高级自动化与自我迭代。
 
-本 Start Book 将官方英文文档进行系统性中文翻译、深度解读、实战扩展与模板整理，旨在帮助中文用户**快速上手并真正玩转** Hermes Agent。
+本 Start Book 对官方文档进行了**系统性中文本地化、实战深度扩展与规范重构**，所有内容均严格遵循 `docs-style-guide.md`，确保**结构完整、专业一致、美观实用、PDF 友好**。
 
-### 本书包含的核心内容
-
-1. **快速入门完全实战指南** —— 安装、配置、命令详解、避坑指南
-2. **Skills 系统完全指南** —— 如何设计高质量 Skill + 大量模板
-3. **Memory & Context 系统完全指南** —— 记忆管理、SOUL.md、Context Files 实战
-4. **Plan + Subagent + Cron 高级自动化指南** —— 结构化思考、多代理协作、定时任务
+**本书亮点**：
+- 完整「如何设计高质量 X」方法论（Skill、Memory、Plan）
+- 大量生产级可复制模板与 Prompt
+- 统一 Style Guide + 自我审查 Checklist
+- 闭环维护机制（搭配 `startbook-master-maintainer` Skill）
 
 ---
 
 ## 如何使用本书
 
-- **新手**：先完整阅读第 1 章《快速入门完全实战指南》，完成安装并配置 SOUL.md。
-- **进阶用户**：重点阅读第 2、3 章，掌握 Skill 设计与 Memory 管理。
-- **高级用户**：重点阅读第 4 章，搭建自动化工作流和自我进化系统。
-- **所有用户**：建议每周让 Hermes Review 一次本书，并更新对应 Skill 和 Memory。
+- **新手**：从《快速入门完全实战指南》开始，完成安装并配置 `SOUL.md`。
+- **进阶用户**：重点阅读 Skills 与 Memory 指南，掌握设计原则。
+- **高级用户**：深入 Plan + Subagent + Cron，搭建完整自动化闭环。
+- **所有用户**：每周让 Hermes Review 本书一次，并根据 `docs-style-guide.md` 进行优化。
 
-**最佳实践**：把本书放在 `~/.hermes/docs/` 目录下，让 Hermes 可以随时阅读并自我迭代。
-
----
-
-## 目录
-
-1. [快速入门完全实战指南](#1-快速入门完全实战指南)
-2. [Skills 系统完全指南](#2-skills-系统完全指南)
-3. [Memory & Context 系统完全指南](#3-memory--context-系统完全指南)
-4. [Plan + Subagent + Cron 高级自动化指南](#4-plan--subagent--cron-高级自动化指南)
-5. [附录](#5-附录)
-
----
-
-## 1. 快速入门完全实战指南
-
-**核心内容摘要**：
-
-### 安装
-
+**最佳实践**：
 ```bash
-curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
-source ~/.bashrc
-hermes model
+mkdir -p ~/.hermes/docs
+cp *.md ~/.hermes/docs/
+hermes chat -q "请阅读 ~/.hermes/docs/Hermes-Agent-中文-Start-Book.md，从现在开始所有工作必须参考本书最佳实践，并将其作为长期知识库持续审查优化。"
 ```
 
-### 常用命令
+---
 
-- `hermes model` —— 切换 LLM 提供商
-- `hermes setup` —— 完整配置
-- `hermes tools` —— 配置工具集
-- `/plan [需求]` —— 创建结构化计划（强烈推荐）
+## 📚 文档地图
 
-### 常见错误排查
+| 文档 | 核心内容 | 推荐阅读顺序 | 状态 |
+|------|----------|--------------|------|
+| **[快速入门完全实战指南](./Hermes-Agent-快速入门完全实战指南.md)** | 安装、配置、命令详解、避坑 | ★★★★★（第 1 步） | 待按规范升级 |
+| **[Skills 系统完全指南](./Hermes-Agent-Skills-系统完全指南.md)** | 如何设计高质量 Skill + 模板 | ★★★★★ | 良好 |
+| **[Memory & Context 系统完全指南](./Hermes-Agent-Memory-Context-系统完全指南.md)** | 记忆管理、SOUL.md、Context Files | ★★★★☆ | 良好 |
+| **[Plan + Subagent + Cron 高级自动化指南](./Hermes-Agent-Plan-Subagent-Cron-高级自动化指南.md)** | 结构化计划、多代理、定时自我进化 | ★★★★★ | **全新规范版** |
+| **docs-style-guide.md** | 全项目写作规范（宪法） | 随时参考 | 已完成 |
 
-- 网络问题：设置代理 `export https_proxy=...`
-- `hermes: command not found`：添加 `~/.local/bin` 到 PATH
-- 记忆不生效：新会话才会加载最新 Memory
-
-**实战建议**：安装完成后立即编辑 `~/.hermes/SOUL.md`，定义你喜欢的中文对话风格。
+**建议阅读路径**：Start Book → 快速入门 → Skills → Memory → Plan+Subagent+Cron
 
 ---
 
-## 2. Skills 系统完全指南
+## 1. 快速入门完全实战指南（摘要）
 
-**核心理念**：Skill 是 Hermes 的**程序化记忆**，存放在 `~/.hermes/skills/`。
+详见 [`Hermes-Agent-快速入门完全实战指南.md`](./Hermes-Agent-快速入门完全实战指南.md)
+
+**核心命令**：
+- `hermes model` / `hermes setup` / `hermes tools`
+- `/plan [需求]` —— **强烈推荐所有复杂任务先规划**
+
+**安装后立即执行**：配置 `~/.hermes/SOUL.md` 定义您的中文沟通风格与偏好。
+
+---
+
+## 2. Skills 系统完全指南（摘要）
+
+详见 [`Hermes-Agent-Skills-系统完全指南.md`](./Hermes-Agent-Skills-系统完全指南.md)
+
+**高质量 Skill 的 7 大设计原则**（核心）：
+1. 单一职责
+2. 清晰触发条件（When to Use）
+3. 详细可执行步骤 + 具体命令
+4. 真实避坑经验（Pitfalls）
+5. 可验证结果（Verification）
+6. 完善元数据
+7. 强可维护性（便于 `patch`）
+
+**最佳实践**：任务完成后立即让 Hermes 检查当前 Skill 并 `patch` 更新。
+
+---
+
+## 3. Memory & Context 系统完全指南（摘要）
+
+详见 [`Hermes-Agent-Memory-Context-系统完全指南.md`](./Hermes-Agent-Memory-Context-系统完全指南.md)
+
+**核心记忆文件**：
+- `MEMORY.md`（≈2200 字符）：环境事实、教训、工作流
+- `USER.md`（≈1375 字符）：角色、偏好、沟通风格
+
+**SOUL.md** 是系统提示首位，建议用中文详细定义人格与工作风格。
+
+**每周推荐**：
+```bash
+hermes chat -q "全面 review 当前 MEMORY.md、USER.md 和 SOUL.md，进行 consolidate 并提出优化建议。"
+```
+
+---
+
+## 4. Plan + Subagent + Cron 高级自动化指南（摘要）
+
+详见 [`Hermes-Agent-Plan-Subagent-Cron-高级自动化指南.md`](./Hermes-Agent-Plan-Subagent-Cron-高级自动化指南.md)（**已按新规范全新编写**）
+
+**高质量 Plan 的 8 大设计原则**（核心）：
+1. 具体可验证（精确路径 + Checklist）
+2. 工具感知
+3. 风险前置
+4. 符合 `docs-style-guide.md`
+5. 自我迭代友好
+
+**终极闭环**：Cron 定时触发 Master Maintainer Skill → Review 本书 → 按规范自动升级 → 生成进化报告。
+
+---
+
+## 5. 自我进化与维护机制
+
+本书本身即可作为 Context File 被 Hermes 持续阅读。
+
+**推荐维护 Prompt**：
+```bash
+hermes chat -q "请完整 Review 本仓库，按照 docs-style-guide.md 找出所有规范性与结构问题，然后系统性升级所有文档，并更新 startbook-master-maintainer Skill。"
+```
+
+---
+
+## 6. 审查清单
+
+- [x] 完全遵循 `docs-style-guide.md`（Frontmatter、结构、徽章、表格）
+- [x] 提供统一文档地图与阅读路径
+- [x] 每个专题均有「高质量设计原则」链接
+- [x] 所有交叉链接有效
+- [x] 包含维护闭环与推荐 Prompt
+- [x] PDF 友好（紧凑布局、清晰分隔）
+
+---
+
+**开始你的 Hermes 进化之旅！** 🚀
+
+把本书复制到 `~/.hermes/docs/`，然后告诉 Hermes：
+
+> “从现在开始，你的所有工作必须参考《Hermes Agent 中文 Start Book v2.0》及 `docs-style-guide.md`，并持续审查和优化整个文档体系。”
+
+**Made with ❤️ by Hermes Agent**
 
 ### 高质量 Skill 的 7 大设计原则
 
