@@ -29,6 +29,8 @@ tags: [hermes, startbook, documentation, self-evolving]
 | **[Skills 系统完全指南](./Hermes-Agent-Skills-系统完全指南.md)** | 如何设计高质量 Skill + 模板 | ★★★★★ | v2.0 已规范 |
 | **[Memory & Context 系统完全指南](./Hermes-Agent-Memory-Context-系统完全指南.md)** | 记忆管理、SOUL.md、Context Files | ★★★★☆ | v2.0 已规范 |
 | **[Plan + Subagent + Cron 高级自动化指南](./Hermes-Agent-Plan-Subagent-Cron-高级自动化指南.md)** | 结构化计划、多代理、定时自我进化 | ★★★★★ | v1.0 已规范 |
+| **[Features 全景能力图谱](./Hermes-Agent-Features-全景能力图谱.md)** | Hermes 五层能力结构与最佳组合路径 | ★★★★★ | v1.0 新增 |
+| **[MCP 集成与工具生态指南](./Hermes-Agent-MCP-集成与工具生态指南.md)** | MCP、本地/企业工具生态、外部能力接入 | ★★★★★ | v1.0 新增 |
 | **[docs-style-guide.md](./docs-style-guide.md)** | 全项目写作规范（宪法） | 随时参考 | v1.1 已规范 |
 | **[CHANGELOG.md](./CHANGELOG.md)** | 项目版本历史与重要迭代记录 | 按需查阅 | v1.0 新增 |
 | **[Advanced Skills 高级设计方法论](./Hermes-Agent-Advanced-Skills-高级设计方法论.md)** | Skill 体系架构、组合设计、生命周期、质量治理 | 进阶阅读 | v1.1 已增强 |

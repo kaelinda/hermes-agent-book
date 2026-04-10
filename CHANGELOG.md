@@ -61,6 +61,18 @@ tags: [changelog, version-history, documentation]
 
 ---
 
+## v1.0 Features / MCP 专题扩展（2026-04-10）
+
+### 重大变化
+
+- 新增 `Hermes-Agent-Features-全景能力图谱.md`
+- 新增 `Hermes-Agent-MCP-集成与工具生态指南.md`
+- 将官方 Features Overview 的 Core / Automation / Media & Web / Integrations / Customization 重构为中文全景能力图谱
+- 系统补足 MCP 的价值、配置方式、生产级设计原则与企业级工具生态视角
+- README 与主书已纳入两本新专题册
+
+---
+
 ## 后续计划
 
 - 增加每周自动维护 Cron 任务
