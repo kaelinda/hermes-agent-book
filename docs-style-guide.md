@@ -15,7 +15,7 @@ tags: [style-guide, documentation, standards, pdf, startbook]
 **适用范围**：`hermes-agent-book` 仓库下所有 `.md` 文档  
 **状态**：正式生效 —— 本仓库所有文档必须遵循此规范
 
-![Hermes Agent](https://hermes-agent.nousresearch.com/img/hermes-logo.png)
+![Hermes Agent](https://hermes-agent.nousresearch.com/docs/img/logo.png)
 
 ---
 

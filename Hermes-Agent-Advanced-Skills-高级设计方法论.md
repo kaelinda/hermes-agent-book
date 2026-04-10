@@ -9,7 +9,7 @@ tags: [advanced-skills, skill-design, methodology, architecture, production]
 
 # Hermes Agent Advanced Skills 高级设计方法论（v1.1）
 
-![Hermes Agent](https://hermes-agent.nousresearch.com/img/hermes-logo.png)
+![Hermes Agent](https://hermes-agent.nousresearch.com/docs/img/logo.png)
 
 **版本**：v1.1（增强版专题册）  
 **更新日期**：2026-04-10  

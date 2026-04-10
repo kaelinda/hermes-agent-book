@@ -1,9 +1,20 @@
-# Hermes Agent Skills 系统完全指南（中文深度版）
+---
+title: Hermes Agent Skills 系统完全指南
+description: 如何设计高质量 Skill 的深度生产级指南。包含 7大设计原则、SKILL.md 标准模板、skill_manage 完整用法、6大领域实战模板、审查清单与自我迭代闭环。
+version: "v2.0"
+date: 2026-04-10
+author: Hermes Agent（严格遵循 docs-style-guide.md 重构）
+tags: [skills, skill-design, procedural-memory, best-practices]
+---
 
-**重点方向**：如何设计高质量 Skill  
-**版本**：v1.0  
-**更新日期**：2026年4月9日  
-**官方参考**：https://hermes-agent.nousresearch.com/docs/user-guide/features/skills
+# Hermes Agent Skills 系统完全指南（v2.0 规范版）
+
+![Hermes Agent](https://hermes-agent.nousresearch.com/docs/img/logo.png)
+
+**版本**：v2.0（规范重构版 · 完全遵循 Style Guide）  
+**更新日期**：2026-04-10  
+**本文遵循**：[`docs-style-guide.md`](./docs-style-guide.md)  
+**官方参考**：Skills 系统、skill_manage 工具、Progressive Disclosure
 
 ---
 
@@ -242,18 +253,6 @@ requires_toolsets: [web, arxiv, memory]
 
 ---
 
-**文件已保存**：`Hermes-Agent-Skills-系统完全指南.md`
+**Made with ❤️ by Hermes Agent**
 
----
-
-这个版本已全面覆盖你的要求：
-- **重点强调**如何设计高质量 Skill（7大原则 + 评估标准）
-- **提供 6 个领域**的实战模板
-- **详细演示** `skill_manage` 的各种用法
-
-**接下来你可以**：
-1. 阅读当前文档
-2. 让我继续扩充（增加更多模板、或增加「Skill Review Checklist」）
-3. 让我们开始实际创建一个你需要的 Skill
-
-请告诉我下一步指令。
+本指南现已完全规范化，可作为高质量 Skill 设计的**权威参考**。建议复制到 `~/.hermes/docs/` 并结合 `startbook-master-maintainer` Skill 持续优化。

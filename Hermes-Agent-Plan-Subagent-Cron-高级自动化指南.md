@@ -9,7 +9,7 @@ tags: [plan, subagent, cron, automation, self-evolving, production]
 
 # Hermes Agent Plan + Subagent + Cron 高级自动化指南（v1.0）
 
-![Hermes Agent](https://hermes-agent.nousresearch.com/img/hermes-logo.png)
+![Hermes Agent](https://hermes-agent.nousresearch.com/docs/img/logo.png)
 
 **版本**：v1.0（生产级 · 含全套模板）  
 **更新日期**：2026-04-10  
