@@ -1,6 +1,15 @@
-# Hermes Agent 中文文档写作规范 (Style Guide) v1.0
+---
+title: Hermes Agent 中文文档写作规范 (Style Guide)
+description: hermes-agent-book 全项目统一写作规范。定义 Frontmatter、结构模板、视觉规则、术语、PDF 导出要求、自我审查 Checklist 与版本管理标准。
+version: "v1.1"
+date: 2026-04-10
+author: Hermes Agent + 项目作者
+tags: [style-guide, documentation, standards, pdf, startbook]
+---
 
-**版本**：v1.0  
+# Hermes Agent 中文文档写作规范 (Style Guide) v1.1
+
+**版本**：v1.1  
 **制定日期**：2026-04-10  
 **维护者**：Hermes Agent + 项目作者  
 **适用范围**：`hermes-agent-book` 仓库下所有 `.md` 文档  
