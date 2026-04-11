@@ -73,6 +73,17 @@ tags: [changelog, version-history, documentation]
 
 ---
 
+## v1.0 IDE / ACP / API Server 专题扩展（2026-04-10）
+
+### 重大变化
+
+- 新增 `Hermes-Agent-IDE-ACP-API-Server-集成指南.md`
+- 系统补足 ACP、API Server、编辑器内 Agent 工作流与团队级接入思路
+- 将 IDE 集成视角与 MCP / Features / Advanced Skills 形成互补专题矩阵
+- README 与主书已纳入该专题册
+
+---
+
 ## 后续计划
 
 - 增加每周自动维护 Cron 任务

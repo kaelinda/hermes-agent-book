@@ -62,6 +62,7 @@ hermes chat -q "请阅读 ~/.hermes/docs/Hermes-Agent-中文-Start-Book.md，从
 | **[Plan + Subagent + Cron 高级自动化指南](./Hermes-Agent-Plan-Subagent-Cron-高级自动化指南.md)** | 结构化计划、多代理、定时自我进化 | ★★★★★ | **全新规范版** |
 | **[Features 全景能力图谱](./Hermes-Agent-Features-全景能力图谱.md)** | Hermes 五层能力结构、组合路径与学习地图 | ★★★★★ | **全新专题册** |
 | **[MCP 集成与工具生态指南](./Hermes-Agent-MCP-集成与工具生态指南.md)** | MCP、本地/企业工具生态与外部能力接入 | ★★★★★ | **全新专题册** |
+| **[IDE / ACP / API Server 集成指南](./Hermes-Agent-IDE-ACP-API-Server-集成指南.md)** | 编辑器内 Agent、ACP、API Server 与团队接入 | ★★★★★ | **全新专题册** |
 | **[Advanced Skills 高级设计方法论](./Hermes-Agent-Advanced-Skills-高级设计方法论.md)** | Skill 体系架构、组合设计、生命周期与治理 | ★★★★☆（进阶） | **全新专题册** |
 | **docs-style-guide.md** | 全项目写作规范（宪法） | 随时参考 | 已完成 |
 
