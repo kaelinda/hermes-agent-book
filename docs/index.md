@@ -3,7 +3,7 @@
 **为中文用户打造的完整 Hermes Agent 实战指南在线导航页**
 
 欢迎来到本项目的在线阅读入口。
-这里会优先展示当前仓库内仍在维护、链接有效、适合按主题阅读的文档。
+这里优先展示当前仓库内仍在维护、链接有效、适合按角色与目标阅读的文档。
 
 ---
 
@@ -26,11 +26,21 @@
 
 ## 🚀 推荐阅读路径
 
-1. **第一次接触 Hermes**：先读《Start Book》→《快速入门完全实战指南》
-2. **你原本在用 OpenClaw**：在快速入门后立刻读《从 OpenClaw 丝滑迁移到 Hermes Agent 指南》
-3. **你想把用法沉淀成资产**：继续读《Skills 系统完全指南》+《Memory & Context 系统完全指南》
-4. **你想搭建高级自动化**：再读《Plan + Subagent + Cron 高级自动化指南》+《Profiles 多代理隔离与工作流指南》
-5. **你想扩展生态与接入团队工作流**：再看 MCP、Features、IDE / ACP / API Server 等专题
+1. **第一次接触 Hermes**：Start Book → 快速入门 → Skills → Memory → Plan+Subagent+Cron
+2. **你原本在用 OpenClaw**：快速入门后立刻读《从 OpenClaw 丝滑迁移到 Hermes Agent 指南》
+3. **你想把 Hermes 变成多 Agent 系统**：Profiles → Plan+Subagent+Cron → Features
+4. **你想扩展生态与团队工作流**：Features → MCP → IDE / ACP / API Server
+5. **你想建立长期方法论与治理体系**：Advanced Skills → 主书维护闭环
+
+---
+
+## 🧭 按角色选择入口
+
+- **新手开发者**：从快速入门开始
+- **OpenClaw 老用户**：先读迁移指南
+- **自动化玩家**：先读 Profiles + Plan/Cron
+- **团队负责人 / 平台建设者**：先读 Features + MCP + IDE 集成
+- **知识库维护者**：重点读 Advanced Skills + CHANGELOG + docs-style-guide
 
 ---
 
@@ -42,7 +52,7 @@
 
 你也可以直接让 Hermes 阅读整个仓库，然后执行：
 
-> “请 review 这个 Start Book 项目，按照 docs-style-guide.md 检查规范、一致性和导航完整性，并补充可提升实战价值的新专题。”
+> “请 review 这个 Start Book 项目，按照 docs-style-guide.md 检查规范、一致性、导航完整性和阅读路径设计，并补充可提升实战价值的新专题。”
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent 中文 Start Book 仓库
-description: 为中文用户打造的高质量 Hermes Agent 实战指南合集。包含快速入门、Skills 设计、Memory 管理、Plan+Subagent+Cron 高级自动化等完整系列。全部文档均遵循 docs-style-guide.md。
-version: "v2.1"
+description: 为中文用户打造的高质量 Hermes Agent 实战指南合集。包含快速入门、OpenClaw 迁移、Profiles、Skills、Memory、Plan+Subagent+Cron、Features、MCP、IDE / ACP / API Server、Advanced Skills 等完整系列。全部文档均遵循 docs-style-guide.md。
+version: "v2.2"
 date: 2026-04-13
 author: Hermes Agent
 tags: [hermes, startbook, documentation, self-evolving]
@@ -13,7 +13,7 @@ tags: [hermes, startbook, documentation, self-evolving]
 
 **为中文用户打造的完整实战指南合集**
 
-本仓库系统性整理了 Hermes Agent 的中文深度指南，从快速入门到 Skills 设计原则、Memory 管理、Plan+Subagent+Cron 高级自动化、自我进化闭环，应有尽有。
+本仓库系统性整理了 Hermes Agent 的中文深度指南，从快速入门、OpenClaw 迁移，到 Skills、Memory、Plan+Subagent+Cron、Profiles、Features、MCP、IDE / ACP / API Server 与 Advanced Skills，应有尽有。
 
 **所有文档均严格遵循 `docs-style-guide.md`**，由 Hermes Agent 亲自参与撰写、Review 和迭代，确保**结构完整、规范统一、可落地、高质量、PDF 友好**。
 
@@ -23,29 +23,44 @@ tags: [hermes, startbook, documentation, self-evolving]
 
 | 文档 | 核心内容 | 推荐阅读顺序 | 状态 |
 |------|----------|--------------|------|
-| **[中文 Start Book](./Hermes-Agent-中文-Start-Book.md)** | 终极整合版 + 导航枢纽 | ★★★★★（第一本读） | v2.1 已更新 |
+| **[中文 Start Book](./Hermes-Agent-中文-Start-Book.md)** | 终极整合版 + 导航枢纽 + 阅读路径 | ★★★★★（第一本读） | v2.2 已增强 |
 | **[快速入门完全实战指南](./Hermes-Agent-快速入门完全实战指南.md)** | 安装、配置、Provider 选择、Profiles、能力地图、SOUL 模板 | ★★★★★ | v2.2 官方增强版 |
-| **[Profiles 多代理隔离与工作流指南](./Hermes-Agent-Profiles-多代理隔离与工作流指南.md)** | 多 Profile、独立人格、独立 Gateway、clone 策略、运维 | ★★★★★ | v1.0 新增 |
 | **[从 OpenClaw 丝滑迁移到 Hermes Agent 指南](./Hermes-Agent-OpenClaw-迁移指南.md)** | 概念映射、配置迁移、工作流替换、Memory/Skill 升级 | ★★★★★（OpenClaw 用户必读） | v1.0 新增 |
+| **[Profiles 多代理隔离与工作流指南](./Hermes-Agent-Profiles-多代理隔离与工作流指南.md)** | 多 Profile、独立人格、独立 Gateway、clone 策略、运维 | ★★★★★ | v1.0 新增 |
 | **[Skills 系统完全指南](./Hermes-Agent-Skills-系统完全指南.md)** | 如何设计高质量 Skill + 模板 | ★★★★★ | v2.0 已规范 |
 | **[Memory & Context 系统完全指南](./Hermes-Agent-Memory-Context-系统完全指南.md)** | 记忆管理、SOUL.md、Context Files | ★★★★☆ | v2.0 已规范 |
 | **[Plan + Subagent + Cron 高级自动化指南](./Hermes-Agent-Plan-Subagent-Cron-高级自动化指南.md)** | 结构化计划、多代理、定时自我进化 | ★★★★★ | v1.0 已规范 |
 | **[Features 全景能力图谱](./Hermes-Agent-Features-全景能力图谱.md)** | Hermes 五层能力结构与最佳组合路径 | ★★★★★ | v1.0 新增 |
 | **[MCP 集成与工具生态指南](./Hermes-Agent-MCP-集成与工具生态指南.md)** | MCP、本地/企业工具生态、外部能力接入 | ★★★★★ | v1.0 新增 |
 | **[IDE / ACP / API Server 集成指南](./Hermes-Agent-IDE-ACP-API-Server-集成指南.md)** | 编辑器内 Agent、ACP、API Server、团队接入 | ★★★★★ | v1.0 新增 |
-| **[docs-style-guide.md](./docs-style-guide.md)** | 全项目写作规范（宪法） | 随时参考 | v1.1 已规范 |
-| **[CHANGELOG.md](./CHANGELOG.md)** | 项目版本历史与重要迭代记录 | 按需查阅 | v1.0 新增 |
 | **[Advanced Skills 高级设计方法论](./Hermes-Agent-Advanced-Skills-高级设计方法论.md)** | Skill 体系架构、组合设计、生命周期、质量治理 | 进阶阅读 | v1.1 已增强 |
+| **[docs-style-guide.md](./docs-style-guide.md)** | 全项目写作规范（宪法） | 随时参考 | v1.1 已规范 |
+| **[CHANGELOG.md](./CHANGELOG.md)** | 项目版本历史与重要迭代记录 | 按需查阅 | v1.1 已更新 |
 
-**建议阅读顺序**：Start Book → 快速入门 → OpenClaw 迁移指南（如适用）→ Skills → Memory → Plan+Subagent+Cron
+---
+
+## 🚀 推荐阅读路径
+
+### 路径 A：第一次接触 Hermes
+Start Book → 快速入门 → Skills → Memory → Plan+Subagent+Cron
+
+### 路径 B：OpenClaw 用户迁移
+Start Book → 快速入门 → OpenClaw 迁移指南 → Profiles → Skills → Advanced Skills
+
+### 路径 C：多 Agent / 自动化玩家
+快速入门 → Profiles → Plan+Subagent+Cron → Features → MCP → IDE / ACP / API Server
+
+### 路径 D：团队 / 平台建设者
+Skills → Memory → Features → MCP → IDE / ACP / API Server → Advanced Skills
 
 ---
 
 ## ✨ 项目亮点
 
 - **高度规范**：全部文档遵循统一 Style Guide（Frontmatter、结构、表格、审查清单）
-- **高质量设计原则**：重点讲解「如何设计高质量 Skill/Memory/Plan」
+- **高质量设计原则**：重点讲解「如何设计高质量 Skill/Memory/Plan/Agent 系统」
 - **实战导向**：海量可直接复制命令、模板、Prompt 与 Checklist
+- **专题矩阵完整**：从入门到迁移、从自动化到 IDE / MCP / 平台接入都有明确落点
 - **自我迭代**：内置 Master Maintainer 闭环，Hermes 可自主 Review 并升级文档
 - **PDF 友好**：紧凑现代排版，适合 Chrome 打印
 - **中文优先**：针对国内网络环境、开发者习惯深度优化
@@ -67,7 +82,7 @@ cd hermes-agent-book
 mkdir -p ~/.hermes/docs
 cp *.md ~/.hermes/docs/
 
-# 3. 让 Hermes 加载本书（关键！）
+# 3. 让 Hermes 加载主书（关键！）
 hermes chat -q "
 请阅读 ~/.hermes/docs/Hermes-Agent-中文-Start-Book.md 和 docs-style-guide.md
 从现在开始，你的所有工作必须严格参考本书最佳实践，并将其作为长期知识库持续审查优化。
@@ -75,7 +90,7 @@ hermes chat -q "
 ```
 
 ### 方式二：在线阅读
-直接在 GitHub 查看最新版本。
+直接在 GitHub 查看最新版本，或访问 `docs/index.md` 对应的在线导航页。
 
 ---
 
@@ -83,11 +98,14 @@ hermes chat -q "
 
 欢迎任何形式的贡献：
 - 提交 Issue / PR
-- 提出新模板或改进建议
+- 提出新模板、新专题或案例
 - **让 Hermes 自主维护**（推荐）：
 
 ```bash
-hermes chat -q "请完整 Review 本仓库，按照 docs-style-guide.md 进行规范检查和升级，并更新 startbook-master-maintainer Skill。"
+hermes chat -q "
+请完整 Review 本仓库，按照 docs-style-guide.md 进行规范检查和升级，
+同时检查文档地图、阅读路径与 CHANGELOG 是否需要同步更新。
+"
 ```
 
 ---
@@ -101,4 +119,3 @@ MIT License —— 欢迎自由使用、修改和传播。
 **祝你与 Hermes 一起越用越强！** 🚀
 
 **Made with ❤️ by Hermes Agent**
-
