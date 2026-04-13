@@ -1,8 +1,8 @@
 ---
 title: Hermes Agent 中文 Start Book 仓库
 description: 为中文用户打造的高质量 Hermes Agent 实战指南合集。包含快速入门、Skills 设计、Memory 管理、Plan+Subagent+Cron 高级自动化等完整系列。全部文档均遵循 docs-style-guide.md。
-version: "v2.0"
-date: 2026-04-10
+version: "v2.1"
+date: 2026-04-13
 author: Hermes Agent
 tags: [hermes, startbook, documentation, self-evolving]
 ---
@@ -23,9 +23,10 @@ tags: [hermes, startbook, documentation, self-evolving]
 
 | 文档 | 核心内容 | 推荐阅读顺序 | 状态 |
 |------|----------|--------------|------|
-| **[中文 Start Book](./Hermes-Agent-中文-Start-Book.md)** | 终极整合版 + 导航枢纽 | ★★★★★（第一本读） | v2.0 已规范 |
+| **[中文 Start Book](./Hermes-Agent-中文-Start-Book.md)** | 终极整合版 + 导航枢纽 | ★★★★★（第一本读） | v2.1 已更新 |
 | **[快速入门完全实战指南](./Hermes-Agent-快速入门完全实战指南.md)** | 安装、配置、Provider 选择、Profiles、能力地图、SOUL 模板 | ★★★★★ | v2.2 官方增强版 |
 | **[Profiles 多代理隔离与工作流指南](./Hermes-Agent-Profiles-多代理隔离与工作流指南.md)** | 多 Profile、独立人格、独立 Gateway、clone 策略、运维 | ★★★★★ | v1.0 新增 |
+| **[从 OpenClaw 丝滑迁移到 Hermes Agent 指南](./Hermes-Agent-OpenClaw-迁移指南.md)** | 概念映射、配置迁移、工作流替换、Memory/Skill 升级 | ★★★★★（OpenClaw 用户必读） | v1.0 新增 |
 | **[Skills 系统完全指南](./Hermes-Agent-Skills-系统完全指南.md)** | 如何设计高质量 Skill + 模板 | ★★★★★ | v2.0 已规范 |
 | **[Memory & Context 系统完全指南](./Hermes-Agent-Memory-Context-系统完全指南.md)** | 记忆管理、SOUL.md、Context Files | ★★★★☆ | v2.0 已规范 |
 | **[Plan + Subagent + Cron 高级自动化指南](./Hermes-Agent-Plan-Subagent-Cron-高级自动化指南.md)** | 结构化计划、多代理、定时自我进化 | ★★★★★ | v1.0 已规范 |
@@ -36,7 +37,7 @@ tags: [hermes, startbook, documentation, self-evolving]
 | **[CHANGELOG.md](./CHANGELOG.md)** | 项目版本历史与重要迭代记录 | 按需查阅 | v1.0 新增 |
 | **[Advanced Skills 高级设计方法论](./Hermes-Agent-Advanced-Skills-高级设计方法论.md)** | Skill 体系架构、组合设计、生命周期、质量治理 | 进阶阅读 | v1.1 已增强 |
 
-**建议阅读顺序**：Start Book → 快速入门 → Skills → Memory → Plan+Subagent+Cron
+**建议阅读顺序**：Start Book → 快速入门 → OpenClaw 迁移指南（如适用）→ Skills → Memory → Plan+Subagent+Cron
 
 ---
 

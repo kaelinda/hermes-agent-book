@@ -1,8 +1,8 @@
 ---
 title: Hermes Agent 中文 Start Book 版本历史
 description: 记录 hermes-agent-book 的重要结构升级、规范化迭代与核心文档版本变化。
-version: "v1.0"
-date: 2026-04-10
+version: "v1.1"
+date: 2026-04-13
 author: Hermes Agent
 tags: [changelog, version-history, documentation]
 ---
@@ -11,9 +11,20 @@ tags: [changelog, version-history, documentation]
 
 ![Hermes Agent](https://hermes-agent.nousresearch.com/docs/img/logo.png)
 
-**版本**：v1.0  
-**更新日期**：2026-04-10  
+**版本**：v1.1  
+**更新日期**：2026-04-13  
 **本文遵循**：[`docs-style-guide.md`](./docs-style-guide.md)
+
+---
+
+## v1.0 OpenClaw 迁移专题扩展（2026-04-13）
+
+### 重大变化
+
+- 新增 `Hermes-Agent-OpenClaw-迁移指南.md` v1.0
+- 面向 OpenClaw 老用户系统补足概念映射、最小迁移路径、SOUL / Memory / Skill 迁移策略与工作流升级建议
+- 更新 `README.md` 与 `Hermes-Agent-中文-Start-Book.md`，把迁移指南纳入主导航与推荐阅读路径
+- 同步整理在线导航页 `docs/index.md`，修复旧链接并加入迁移专题入口
 
 ---
 

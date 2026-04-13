@@ -1,46 +1,51 @@
 # Hermes Agent 中文 Start Book
 
-**为中文用户打造的完整 Hermes Agent 实战指南**
+**为中文用户打造的完整 Hermes Agent 实战指南在线导航页**
 
-欢迎来到本项目的在线阅读站。
-
-本站点由 GitHub Pages 自动生成，内容与仓库保持同步。
+欢迎来到本项目的在线阅读入口。
+这里会优先展示当前仓库内仍在维护、链接有效、适合按主题阅读的文档。
 
 ---
 
 ## 📖 快速导航
 
-- **[完整 Start Book v2.0](./Hermes-Agent-中文-Start-Book-v2.0.md)** —— 推荐从这里开始（整合版）
-- [快速入门完全实战指南](./Hermes-Agent-快速入门完全实战指南.md)
-- [Skills 系统完全指南](./Hermes-Agent-Skills-系统完全指南.md)
-- [Memory & Context 系统完全指南](./Hermes-Agent-Memory-Context-系统完全指南.md)
-- [Plan + Subagent + Cron 高级自动化指南](./Hermes-Agent-Plan-Subagent-Cron-高级自动化指南.md)
-- [MCP + Voice Mode + 高级特性完全指南](./Hermes-Agent-MCP-Voice-高级特性完全指南.md)
-- [生产部署与企业级应用完全指南](./Hermes-Agent-生产部署-企业级应用完全指南.md)
+- **[Hermes Agent 中文 Start Book](../Hermes-Agent-中文-Start-Book.md)** —— 推荐先读，总导航枢纽
+- [快速入门完全实战指南](../Hermes-Agent-快速入门完全实战指南.md)
+- [从 OpenClaw 丝滑迁移到 Hermes Agent 指南](../Hermes-Agent-OpenClaw-迁移指南.md)
+- [Profiles 多代理隔离与工作流指南](../Hermes-Agent-Profiles-多代理隔离与工作流指南.md)
+- [Skills 系统完全指南](../Hermes-Agent-Skills-系统完全指南.md)
+- [Memory & Context 系统完全指南](../Hermes-Agent-Memory-Context-系统完全指南.md)
+- [Plan + Subagent + Cron 高级自动化指南](../Hermes-Agent-Plan-Subagent-Cron-高级自动化指南.md)
+- [Features 全景能力图谱](../Hermes-Agent-Features-全景能力图谱.md)
+- [MCP 集成与工具生态指南](../Hermes-Agent-MCP-集成与工具生态指南.md)
+- [IDE / ACP / API Server 集成指南](../Hermes-Agent-IDE-ACP-API-Server-集成指南.md)
+- [Advanced Skills 高级设计方法论](../Hermes-Agent-Advanced-Skills-高级设计方法论.md)
+- [CHANGELOG](../CHANGELOG.md)
 
 ---
 
-## 🚀 如何使用
+## 🚀 推荐阅读路径
 
-1. **新手**：先阅读 Start Book v2.0 的前言和快速入门部分
-2. **进阶用户**：重点学习 Skills 和 Memory 章节
-3. **开发者**：阅读生产部署与多实例管理
-4. **让 Hermes 帮忙**：把本项目文档复制到你的 `~/.hermes/docs/` 目录，让 Hermes 直接阅读并按照最佳实践工作。
+1. **第一次接触 Hermes**：先读《Start Book》→《快速入门完全实战指南》
+2. **你原本在用 OpenClaw**：在快速入门后立刻读《从 OpenClaw 丝滑迁移到 Hermes Agent 指南》
+3. **你想把用法沉淀成资产**：继续读《Skills 系统完全指南》+《Memory & Context 系统完全指南》
+4. **你想搭建高级自动化**：再读《Plan + Subagent + Cron 高级自动化指南》+《Profiles 多代理隔离与工作流指南》
+5. **你想扩展生态与接入团队工作流**：再看 MCP、Features、IDE / ACP / API Server 等专题
 
 ---
 
 ## 🤝 参与贡献
 
-欢迎提交 Issue 或 Pull Request！
+欢迎提交 Issue 或 Pull Request。
 
-详细说明请见 **[CONTRIBUTING.md](../CONTRIBUTING.md)**
+详细说明请见 [CONTRIBUTING.md](../CONTRIBUTING.md)。
 
-你也可以直接让你的 Hermes 阅读本项目，然后执行：
+你也可以直接让 Hermes 阅读整个仓库，然后执行：
 
-> “请 review 这个 Start Book 项目，并提出改进建议，帮我维护它。”
+> “请 review 这个 Start Book 项目，按照 docs-style-guide.md 检查规范、一致性和导航完整性，并补充可提升实战价值的新专题。”
 
 ---
 
 **Made with ❤️ by Hermes Agent & 开源社区**
 
-**最后更新**：2026年4月9日
+**最后更新**：2026-04-13

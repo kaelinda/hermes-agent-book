@@ -1,18 +1,18 @@
 ---
 title: Hermes Agent 中文 Start Book
 description: 为中文用户打造的完整实战指南合集。从快速入门到 Skills、Memory、Plan+Subagent+Cron 高级自动化，系统性帮助用户掌握自我进化 AI Agent。全部文档遵循 docs-style-guide.md。
-version: "v2.0"
-date: 2026-04-10
+version: "v2.1"
+date: 2026-04-13
 author: Hermes Agent（严格遵循 docs-style-guide.md 重构）
 tags: [hermes, startbook, guide, self-evolving, production-ready]
 ---
 
-# Hermes Agent 中文 Start Book（v2.0 终极整合版）
+# Hermes Agent 中文 Start Book（v2.1 终极整合版）
 
 ![Hermes Agent](https://hermes-agent.nousresearch.com/docs/img/logo.png)
 
-**版本**：v2.0（重构规范版 · 完全遵循 Style Guide）  
-**更新日期**：2026-04-10  
+**版本**：v2.1（迁移专题增强版 · 完全遵循 Style Guide）  
+**更新日期**：2026-04-13  
 **本文遵循**：[`docs-style-guide.md`](./docs-style-guide.md)  
 **项目地址**：https://github.com/kaelinda/hermes-agent-book  
 **推荐投递**：复制到 `~/.hermes/docs/` 作为长期 Context File
@@ -57,6 +57,7 @@ hermes chat -q "请阅读 ~/.hermes/docs/Hermes-Agent-中文-Start-Book.md，从
 |------|----------|--------------|------|
 | **[快速入门完全实战指南](./Hermes-Agent-快速入门完全实战指南.md)** | 安装、配置、Provider 选择、Profiles、多能力地图 | ★★★★★（第 1 步） | v2.2 官方增强版 |
 | **[Profiles 多代理隔离与工作流指南](./Hermes-Agent-Profiles-多代理隔离与工作流指南.md)** | 多 Profile、独立人格、独立 Gateway、clone 策略 | ★★★★★（重度用户） | **全新专题册** |
+| **[从 OpenClaw 丝滑迁移到 Hermes Agent 指南](./Hermes-Agent-OpenClaw-迁移指南.md)** | OpenClaw 用户的概念映射、配置迁移、工作流升级路径 | ★★★★★（迁移用户） | **全新专题册** |
 | **[Skills 系统完全指南](./Hermes-Agent-Skills-系统完全指南.md)** | 如何设计高质量 Skill + 模板 | ★★★★★ | 良好 |
 | **[Memory & Context 系统完全指南](./Hermes-Agent-Memory-Context-系统完全指南.md)** | 记忆管理、SOUL.md、Context Files | ★★★★☆ | 良好 |
 | **[Plan + Subagent + Cron 高级自动化指南](./Hermes-Agent-Plan-Subagent-Cron-高级自动化指南.md)** | 结构化计划、多代理、定时自我进化 | ★★★★★ | **全新规范版** |
@@ -66,7 +67,7 @@ hermes chat -q "请阅读 ~/.hermes/docs/Hermes-Agent-中文-Start-Book.md，从
 | **[Advanced Skills 高级设计方法论](./Hermes-Agent-Advanced-Skills-高级设计方法论.md)** | Skill 体系架构、组合设计、生命周期与治理 | ★★★★☆（进阶） | **全新专题册** |
 | **docs-style-guide.md** | 全项目写作规范（宪法） | 随时参考 | 已完成 |
 
-**建议阅读路径**：Start Book → 快速入门 → Skills → Memory → Plan+Subagent+Cron
+**建议阅读路径**：Start Book → 快速入门 → OpenClaw 迁移指南（如你来自 OpenClaw）→ Skills → Memory → Plan+Subagent+Cron
 
 ---
 
